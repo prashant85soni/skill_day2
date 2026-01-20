@@ -14,3 +14,5 @@ class Products(models.Model):
     @property
     def tax(self):
         return self.price*0.3
+    
+    
